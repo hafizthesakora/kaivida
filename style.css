@@ -205,9 +205,30 @@ img.medium {
           'main'
           'footer';
         grid-template-columns: 1fr;
-        grid-template-rows: 5rem 1fr 70rem;
+        grid-template-rows: 5rem 1fr 80rem;
         height: 100%;
     }
+
+    .logo {
+        width: 100px;
+        margin-left: 150px;
+    }
+
+    .nav {
+        display: none;
+    }
+    .hd {
+        color: black;
+    }
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 0px 12px;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+      }
   }
   
   /* Carousel */
@@ -305,3 +326,7 @@ img.medium {
     border-radius: 10px;
     transition: background 0.5s;
   }
+
+  
+
+ 
