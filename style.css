@@ -7,6 +7,7 @@ body {
     height: 100vh;
     font-size: 1.6rem;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: gainsboro;
 }
 
 /* Layout */
@@ -21,8 +22,10 @@ body {
     height: 100%;
 }
 header {
+    margin: 0;
     grid-area: header;
     background-color: #ffffff;
+    border-radius: 25px;
 }
 main {
     grid-area: main;
@@ -233,17 +236,20 @@ img.medium {
   
   /* Carousel */
   .carousel {
-      padding: 5rem 0;
+      padding: 0 0 5rem;
   }
 
 .mySlides {display: none;}
-.image {vertical-align: middle;}
+.image {
+    vertical-align: middle;
+    max-width: 1200px;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
-  margin: auto;
+  margin: 0;
 }
 
 /* Caption text */
@@ -329,4 +335,10 @@ img.medium {
 
   
 
- 
+ .inbet {
+     margin-bottom: 90px;
+ }
+
+.caro {
+    margin-top: 70px;
+}
