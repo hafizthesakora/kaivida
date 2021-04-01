@@ -89,7 +89,7 @@ img.medium {
     border: 0.1rem #c0c0c0 solid;
     background-color: #f8f8f8;
     border-radius: 0.5rem;
-    margin: 1rem;
+    margin: 1rem 1rem 0rem 1rem ;
 }
 .card-body {
     padding: 1rem;
@@ -286,11 +286,12 @@ img.medium {
  }
 
 .carousel {
-   width: 1200px;
+   width: 100%;
+   margin-bottom: 5rem;
 }
 
 .cto {
-    width: 1200px;
+    width: 100%;
     background-color: green;
     position: relative;
     height: 8rem;
